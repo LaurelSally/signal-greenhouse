@@ -16,9 +16,10 @@ Configured production values:
 - `src/app/layout.tsx`: Talent project verification meta tag
 - `src/lib/wagmi.ts`: `signalGreenhouseAddress`
 
-Optional final attribution value:
+Configured onchain attribution:
 
-- `src/lib/wagmi.ts`: replace `attributionDataSuffix` with the ERC-8021 builder encoded string when it is available.
+- Builder code: `bc_hz0cl0qb`
+- `src/lib/wagmi.ts`: ERC-8021 builder encoded string is set as `attributionDataSuffix`.
 
 UI errors are mapped to friendly English statuses only.
 
